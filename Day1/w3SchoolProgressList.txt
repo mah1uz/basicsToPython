@@ -1,0 +1,12 @@
+Python Tutorial From W3School
+
+Python HOME
+Python Intro
+Python Get Started
+Python Syntax
+Python Output
+Python Comments
+Python Variables
+Python Data Types
+Python Numbers
+Python Casting
