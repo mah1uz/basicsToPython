@@ -120,29 +120,29 @@ None Type:	NoneType
 
 
 
-# x = range(6)
-# print(x)
-# for n in x:
-#   print(n)
-# print(type(x))]
+x = range(6)
+print(x)
+for n in x:
+  print(n)
+print(type(x))
 
 
 
-# x = 35e3
-# y = 12E4
-# z = 2e1
+x = 35e3
+y = 12E4
+z = 2e1
 
-# print(type(x))
-# print(type(y))
-# print(type(z))
-# print(z)
+print(type(x))
+print(type(y))
+print(type(z))
+print(z)
 
 
 
-# import random
-# print(random.randrange(1,10))
-# print(random.randint(1,10))
-# print(random.randfloat(0,100))
+import random
+print(random.randrange(1,10))
+print(random.randint(1,10))
+print(random.uniform(0,100))
 
 
 a='''this is a test of a string that is a sentence'''
