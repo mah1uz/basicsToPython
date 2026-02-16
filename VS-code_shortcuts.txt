@@ -1,0 +1,6 @@
+shift+alt+a = for comment out and uncomment a block
+cntrl + / = for a line to comment out and selected lines
+
+To change the theme of VS code-
+cntrl+k  cntrl+t
+
