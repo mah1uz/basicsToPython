@@ -1,4 +1,4 @@
-'''❤️this is the function fpr printing a string or something'''
+'''❤️this is the function for printing a string or something'''
 
 # print("Hello, World!")
 # print("this is a test.")
