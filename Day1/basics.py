@@ -11,11 +11,18 @@
 
 '''❤️ Indentation in pYTHON'''
 
-if 11>12:  #1st block of if condition
- print("78 is greater than 12")
-else:      # 2nd block of the if condition
- print("12 is greater than 11")
+# if 11>12:  #1st block of if condition
+#  print("78 is greater than 12")
+# else:      # 2nd block of the if condition
+#  print("12 is greater than 11")
 
+
+# for i in range(3):
+#     if i % 2 == 0:
+#         print(f"{i} is even")
+#     else:
+#         print(f"{i} is odd")
+# print("Done!")
 
 # if 5 > 2:
 #     print("Inside the if block")
@@ -33,6 +40,9 @@ else:      # 2nd block of the if condition
 # print( " we are in the same line haha")
 # print("I am " + str(35) + " years old.")
 # print("I am " ,35, " years old.")
+# name ="mahfuz"
+# age =24
+# print(f"My name is {name} and I am {age} years old.")
 
 
 '''❤️Comment out in Python'''
@@ -46,7 +56,13 @@ that spans multiple lines.'''
 """ This is another multi-line comment
 that also spans multiple lines. """
 
-"""in vs code i can use ctrl + / to comment or uncomment a line or a block of code"""
+"""in vs code i can use ctrl + / to comment or uncomment a line or a block of code with multiple lines"""
+
+# but i can also use cntrl+k+c to comment and cntrl+k+u to uncomment a line or a block of code with multiple lines
+
+#     not only that but i can also use alt+shift+a to comment or uncomment a line or a block of code with multiple lines
+        
+#         and not only that but i can also use ctrl+/ to comment or uncomment a line or a block of code with multiple lines
 
 
 """❤️ Data Types printing and checking"""
@@ -59,7 +75,7 @@ that also spans multiple lines. """
 '''Many declarations in one line'''
 
 # x,y,a = 11, "Banana", 'whythough'
-# print(x,y, a, sep='IKNOWYOU')
+# print(x,y, a, sep='_')
 # print(x,y, a, sep='')
 
 # x=z=A= 'ORANGE'
@@ -73,27 +89,28 @@ that also spans multiple lines. """
 
 '''❤️ Global Variables '''
 
-# x="nowYouSeeMe"
+# x="A string"
 # y=22
 
 # def myFunc():
-#     print("These are the varibales:" , x,y, sep='*')
-   
+#     print("These are the varibales:" , x,y, sep='**')
+#     if 12<13:
+#             print("this is working just like i imagined")
+#             if 14>8:
+#                   print("this indenytation is also working just like i imagined")
+
 # print("Outside the function:", x,y, sep='-')
 # myFunc()    
 
 
 
-# x="good"
+x="good"
 
-# def myFunction():
-#    x= "best"
-#    print("My first initializated var:" +x )
-   
-# myFunction()
-# print('this is my second initialization: '+ x)
-
-
+def myFunction():
+   x= "best"
+   print(f"My first initializated var: {x}" )
+   print('this is my second initialization: '+ x)
+myFunction()
 
 # global x
 # x=69
