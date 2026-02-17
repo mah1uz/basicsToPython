@@ -11,10 +11,10 @@
 
 '''❤️ Indentation in pYTHON'''
 
-# if 11>12:  #1st block of if condition
-#  print("78 is greater than 12")
-# else:      # 2nd block of the if condition
-#  print("12 is greater than 11")
+if 11>12:  #1st block of if condition
+ print("78 is greater than 12")
+else:      # 2nd block of the if condition
+ print("12 is greater than 11")
 
 
 # if 5 > 2:
@@ -43,12 +43,13 @@
 '''This is a multi-line comment                     
 that spans multiple lines.'''   
 
-"""This is another multi-line comment
-that also spans multiple lines."""
+""" This is another multi-line comment
+that also spans multiple lines. """
 
 """in vs code i can use ctrl + / to comment or uncomment a line or a block of code"""
 
-"""Data Types printing and checking"""
+
+"""❤️ Data Types printing and checking"""
 # x=12
 # print(type(x))
 
@@ -120,31 +121,31 @@ None Type:	NoneType
 
 
 
-x = range(6)
-print(x)
-for n in x:
-  print(n)
-print(type(x))
+# x = range(6)
+# print(x)
+# for n in x:
+#   print(n)
+# print(type(x))
 
 
 
-x = 35e3
-y = 12E4
-z = 2e1
+# x = 35e3
+# y = 12E4
+# z = 2e1
 
-print(type(x))
-print(type(y))
-print(type(z))
-print(z)
-
-
-
-import random
-print(random.randrange(1,10))
-print(random.randint(1,10))
-print(random.uniform(0,100))
+# print(type(x))
+# print(type(y))
+# print(type(z))
+# print(z)
 
 
-a='''this is a test of a string that is a sentence'''
-print(a)
-print(type(a))
+
+# import random
+# print(random.randrange(1,10))
+# print(random.randint(1,10))
+# print(random.uniform(0,100))
+
+
+# a='''this is a test of a string that is a sentence'''
+# print(a)
+# print(type(a))
